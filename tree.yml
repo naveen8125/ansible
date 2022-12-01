@@ -1,0 +1,9 @@
+---
+ - hosts: slave2
+   become: true
+   tasks:
+     - name: installing tree
+       yum: 
+         name: tree
+         state: installed
+         
