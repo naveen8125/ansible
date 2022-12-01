@@ -1,5 +1,5 @@
 ---
- - hosts: slave1
+ - hosts: slave2
    become: true
    tasks:
      - ping:
