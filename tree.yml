@@ -4,6 +4,6 @@
    tasks:
      - name: installing tree
        yum: 
-         name: tree
+         name: maven
          state: installed
          
