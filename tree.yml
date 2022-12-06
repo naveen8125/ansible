@@ -4,6 +4,6 @@
    tasks:
      - name: installing tree
        yum: 
-         name: openjdk-11-java
+         name: openjdk-java-11
          state: installed
          
