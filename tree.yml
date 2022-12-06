@@ -1,9 +1,9 @@
 ---
- - hosts: 172.31.93.1
+ - hosts: group
    become: true
    tasks:
      - name: installing tree
        yum: 
-         name: maven
+         name: wget
          state: installed
          
